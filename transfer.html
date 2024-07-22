@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Transfer</title>
+    <!-- icon -->
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/463/463420.png">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+      <!-- style -->
+      <link rel="stylesheet" href="./style4.css">
+      
+      <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Shrikhand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar  ">
+        <div class="container d-flex justify-content-between ">
+          <div class="imgicon w-25">
+            <img src="https://pngimg.com/uploads/bank/bank_PNG5.png" alt="Bootstrap" width="60" height="44">
+          </div>
+          <div>
+            <h1 class="text-center bankhead">MY BANK</h1>
+          </div>
+          <div class="hyperlink w-25">
+            <button type="button" class="btn btn-danger  btn-sm mt-3 " onclick="logout()">Logout</button>
+          </div>
+        </div>
+      </nav>
+   
+    <div >
+        <h4 id="head1"  class=" text-center mt-2">Online Banking </h4>
+    </div>
+    <!-- box -->
+
+    <div class="row boxmodel">
+        <div class="col-6 insidebox">
+            <h1 class="mt-2"> Deposit</h1>
+            <form action="">
+           
+                <div class="mb-3 mt-3">
+                    <!-- <label for="exampleFormControlInput1" class="form-label fw-bold">Account Number</label> -->
+                    <input type="text" class="form-control tplace" id="d_acno" placeholder=" Enter Account Number">
+                </div>
+                <div class="mb-3">
+                    <!-- <label for="exampleFormControlInput1" class="form-label fw-bold">Password</label> -->
+                    <input type="number" class="form-control tplace" id="dep_amount" placeholder="Enter The Amount">
+                </div>
+                <button type="button" class="btn btn-success  btn-sm mt-3" onclick="deposit()">Deposit</button>
+            </form>
+            <div id="dbal"><h1></h1></div>
+        </div>
+        <div class="col-6 insidebox">
+            <h1 class="mt-2"> Withdraw</h1>
+            <form action="">
+           
+                <div class="mb-3 mt-3">
+                    <!-- <label for="exampleFormControlInput1" class="form-label fw-bold">Account Number</label> -->
+                    <input type="text" class="form-control tplace" id="w_acno" placeholder=" Enter Account Number">
+                </div>
+                <div class="mb-3">
+                    <!-- <label for="exampleFormControlInput1" class="form-label fw-bold">Password</label> -->
+                    <input type="number" class="form-control tplace" id="w_amt" placeholder="Enter The Amount">
+                </div>
+                <button type="button" class="btn btn-success  btn-sm mt-3" onclick="withdraww()">Withdraw</button>
+            </form>
+            <div id="wbal"><h1></h1></div>
+        </div>
+        
+    </div>
+
+<!-- footer -->
+
+<div class=" row foot">
+
+    <div class="col-2"></div>
+
+    <div class="col-8 f1">
+      <h5>copyright @ 2024 MyBank</h5>
+<!-- 
+      <p><a href="">Disclaimer</a> </p>
+      <p> <a href="">Privacy Policy</a> </p>
+      <p> <a href="">Code of commitment</a></p> -->
+
+    </div>
+
+    <div class="col-2"></div>
+
+  </div>
+  <script src="transfer.js"></script>
+    
+</html>

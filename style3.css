@@ -1,0 +1,33 @@
+.regform{
+    background-color: rgb(46, 149, 193);
+    width: 30%;
+    height: 380px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    border-radius: 30px 30px 30px 30px;
+}
+.reg{
+    margin-top: 3%;
+    justify-content: center;
+    align-items: center;
+}
+.form tplace{
+    border-radius: 10px 10px 10px 10px;
+}
+
+.header{
+    width: 100%;
+    background-color: rgb(46, 149, 193);
+    height: 80px;
+    text-align: center;
+  
+}
+.header h1{
+    font-size: 50px;
+    font-family: "Shrikhand", serif;
+    mix-blend-mode: color-burn;
+    padding-top: 1%;
+
+}

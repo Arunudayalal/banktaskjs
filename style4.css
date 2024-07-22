@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(46, 149, 193);
+}
+
+.bankhead{
+    font-size: 50px;
+    font-family: "Shrikhand", serif;
+   mix-blend-mode: hard-light;
+     color: rgb(34, 15, 15);
+    
+}
+.hyperlink {
+   
+    text-align: right;
+    font-size: large;
+    font-style: italic;
+ 
+    
+   
+
+}
+.imgicon{
+    opacity: .8;
+    
+}
+
+
+
+.boxmodel{
+    width: 100%;
+   justify-content: space-evenly;
+   margin-top: 3%;
+   height: 230px;
+  
+    
+}
+.insidebox{
+    width: 40%;
+    height: 250px;
+    border-style: groove;
+    border-width: medium;
+    border-color:rgb(46, 149, 193);
+    text-align: center;
+    background-color: rgb(215, 203, 181);
+  
+}
+.insidebox h1{
+    font-family: "Shrikhand", serif;
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(38, 59, 76);
+}
+
+.foot{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(46, 149, 193) ;
+
+    margin-top: 5%;
+ }
+.f1{
+    margin-top: 4%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.f1 p a{
+    text-align: justify;
+    padding-left: 3%;
+    text-decoration: none;
+    color: black;
+}
